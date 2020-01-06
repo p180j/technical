@@ -1,0 +1,10 @@
+caffeine-cache:
+  item:
+    - cache-name: merchantInfo
+    - cache-name: newMerchantInfo
+      max-size: 10000
+      expire-seconds: 600
+    - cache-name: categoryList
+    - cache-name: brandList
+      max-size: 1
+      expire-seconds: 36000

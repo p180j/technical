@@ -1,0 +1,13 @@
+server:
+  port: 8007
+spring:
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/p180j/spring-cloud-config.git
+          search-paths: config-repo
+          username: p180j
+          password: 93xiaofang
